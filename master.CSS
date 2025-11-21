@@ -1,0 +1,34 @@
+section {
+  justify-content: space-around; 
+  padding-top: 30px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: cursive;
+  list-style: none;
+}
+
+nav {
+  min-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img-mid {
+  width: 18rem;
+  height: 18rem;
+}
+.card-img-low {
+  width: 18rem;
+  height: 17rem;
+}
